@@ -1,0 +1,26 @@
+{
+  "content": [
+    {
+      "content": {
+        "field": "cases.primary_site",
+        "value": "Breast"
+      },
+      "op": "in"
+    },
+    {
+      "content": {
+        "field": "cases.samples.sample_type",
+        "value": ["Solid Tissue Normal"]
+      },
+      "op": "in"
+    },
+    {
+      "content": {
+        "field": "files.analysis.workflow_type",
+        "value": ["HTSeq - Counts"]
+      },
+      "op": "in"
+    }
+  ],
+  "op": "and"
+}
